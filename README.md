@@ -1,3 +1,7 @@
+# @comerick/model-viewer
+
+This is a fork of the [model-viewer](https://github.com/google/model-viewer) package. It is published under the `4.0.0-canary.x` versioning scheme.
+
 # The `<model-viewer>` project
 
 This is the main GitHub repository for the `<model-viewer>` web component and

@@ -1,8 +1,15 @@
 {
-  "name": "@google/model-viewer",
-  "version": "4.0.0",
+  "name": "@comerick/model-viewer",
+  "version": "4.0.0-custom.0",
   "description": "Easily display interactive 3D models on the web and in AR!",
-  "repository": "https://github.com/google/model-viewer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comerick/model-viewer.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "bugs": {
     "url": "https://github.com/google/model-viewer/issues"
   },
@@ -112,8 +119,5 @@
     "@rollup/plugin-terser": "^0.4.4",
     "typescript": "5.7.3",
     "three": "^0.173.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
