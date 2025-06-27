@@ -1,5 +1,5 @@
 {
-  "name": "@google/model-viewer",
+  "name": "@comerick/model-viewer",
   "version": "4.1.0-custom.0",
   "description": "Easily display interactive 3D models on the web and in AR!",
   "repository": {

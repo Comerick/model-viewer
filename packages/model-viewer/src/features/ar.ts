@@ -14,7 +14,7 @@
  */
 
 import {property} from 'lit/decorators.js';
-import {USDZExporter} from 'three/examples/jsm/exporters/USDZExporter.js';
+import {USDZExporter} from '../three-components/USDZExporter';
 
 import {IS_AR_QUICKLOOK_CANDIDATE, IS_SCENEVIEWER_CANDIDATE, IS_WEBXR_AR_CANDIDATE} from '../constants.js';
 import ModelViewerElementBase, {$needsRender, $progressTracker, $renderer, $scene, $shouldAttemptPreload, $updateSource} from '../model-viewer-base.js';
